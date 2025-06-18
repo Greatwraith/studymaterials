@@ -1,0 +1,18 @@
+  /* Align all header cells to the left */
+ 
+ .first-table {
+    width: 100%;
+ }
+  .first-table th {
+    text-align: right;
+  }
+  
+ 
+  .first-table td {
+    text-align: left;
+  }
+
+ .first-td {
+    font-style: italic;
+ }
+  

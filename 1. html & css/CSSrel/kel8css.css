@@ -1,0 +1,24 @@
+/* garis horizontal */
+.horizontalpx {
+    border-top: 2px solid black; /* buat ngatur tebal/tipisnya garis */
+    margin: 20px 0; /* margin buat ngatur jarak garis dari layar( layar atas) */
+}
+
+/* garis vertikal */
+.verticalpx {
+    border-left: 2px solid black;  /*ini buat ngatur tebal/tipisnya garis*/
+    height: 100px;  /*ini buat panjang pendeknya garis*/
+    margin: 20px; /* buat ngatur jarak garis adari layar(layar samping) */ 
+}
+
+.horizontalline {
+        border-top: 2px solid black; /* Tetap menggunakan border-top untuk garis */
+        width: 80%; /* Lebar garis menjadi 80% dari elemen induknya */
+        margin: 20px auto; /* Mengatur margin vertikal 20px, dan 'auto' untuk menempatkan garis di tengah secara horizontal */
+    }
+    
+
+
+
+    
+

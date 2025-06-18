@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(22, 66, 60);
+    ;
+    color:  #333;
+}
+
+.container {
+    width: 960px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.header {
+    padding: 10px;
+    background-color:  rgb(106, 156, 137);
+}
+
+.header .judul {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.header a{
+    text-decoration: none;
+    color:   white;
+    font-size: 150%;
+}
+
+.header a:hover{
+    background-color: rgb(22, 66, 60);
+    color: white;
+}
+
+.main {
+    width: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    float: left;
+    background-color: #ffffff;
+}
+
+.main .threeofhispaintings{
+    text-align: center;
+}
+
+.main .theperson{
+    text-align: center;
+}
+
+.main .thepersonpict{
+    text-align: center;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 30px;
+    float: right;
+    background-color:  #ffffff;
+}
+
+/*menghilangkan efek float*/
+
+.cf:before,
+.cf:after{
+    content: "";
+    display: table
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
+}
+
+.footer{
+    background-color: #83c5be;
+    padding: 5px;
+}
+
+.footer .copy{
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+}

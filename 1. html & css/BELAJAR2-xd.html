@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>
+            belajar 2 memasukan gambar, link dan membuat list html
+        </title>
+    </head>
+
+    <body>
+        <h1> 
+            Belajar 2 : Gambar, link dan list html
+        </h1>
+
+        <h2>
+            1. Cara memasukkan gambar pada html
+        </h2>
+        <p> 
+            untuk itu html menyediakan element untuk menampilkan gambar pada halaman website kita, untuk menampilkan gambar html menyediakan tag. yang harus di perhatikan adalah link gambar kita harus ada didalam satu folder dengan html yang kita muat
+        </p>
+
+        <img src="./images/lamine.jpg" height="300" width="400">
+        <hr>
+        <br>
+        <img src="./images/gadafoto" alt="kalo fotonya gak ada misal source nya salah/fotonya gaada di folder images bisa menampilkan deskripsi/penjelasan tentang foto menggunakan tag alt">
+
+        <h1>2. cara memasukkan link</h1>
+        <p>berfungsi untuk menambahkan link yang akan berfungsi yang akan redirect ke halaman website yang alamat nya kita cantumkan . html link biasa menggunakan element a href="linknya"</p>
+
+        <p>
+            <i>
+                <b>contoh link internal</b>
+            </i>    
+        </p>
+        <a href="belajar1-xd.html" target="_blank" title="akan diarahkan ke halaman belajar 1">Will Open the link on a new tab </a>   
+        
+        <p>
+            <i>
+                <b> contoh link external</b>
+            </i>
+        </p>
+        <a href="https://www.youtube.com/watch?v=Nn7EX3zkGUo&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&pp=iAQB" target="_blank" title="menuju ke youtube">link menuju youtube
+    </a>
+       
+      <h2>3. list html</h2>
+      <p>
+        Dalam html, <q>list</q> merujuk pada elemen yg digunakan untuk menyusun item item dalam format yg tersruktur. ada beberapa jenis list yang bisa digunakan
+      </p>
+         <h1>1. ordered list</h1>
+         <p>
+            <i>
+                ordered list yaitu list yg dibuat secara berurutan dibuat dengan tag ol lalu di dialam nya berisi dengan item yang dimasukkan yg dibuat dengan menggunakan tag li, berikut, contoh penggunaan tag ol.
+            </i>
+         </p>
+
+         <i>
+            <strong>
+                ordered List
+            </strong>
+         </i> 
+         <ol>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+         </ol>
+
+         <i>
+            <strong>
+               ini ordered list tapi <mark>pake alfabet kapital</mark>
+            </strong>
+         </i> 
+         <ol type="A">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+         </ol>
+
+         <i>
+            <strong>
+               ini ordered list tapi <mark>pake alfabet kecil</mark>
+            </strong>
+         </i>
+         <ol type="a">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+         </ol>
+         
+         <i>
+            <strong>
+               ini ordered list tapi <mark>pake romawi besar</mark>
+            </strong>
+         </i>
+         <ol type="I">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+         </ol>
+
+         <i>
+            <strong>
+               ini ordered list tapi <mark>pake romawi kecil</mark>
+            </strong>
+         </i>
+         <ol type="i">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+         </ol>
+
+         <hr>
+         <br>
+
+         <h2>2. unordered list</h2>
+         <p>unordered list yaitu list yang dibuat secara tidak berurutan dibuat dengan tag ul lalu di dalamnya di isi dengan item yang dimasukkan yang dibuat menggunakan tag li, berikut contoh penggunaan </p>
+
+         <i>
+            <strong>
+                ini Unordered List yang <mark>jadi bulat disc,round.</mark>
+            </strong>
+         </i>
+         <ul>
+            <li>mangga</li>
+            <li>jeruk</li>
+            <li>apel</li>
+         </ul>
+
+         <ul type="round">
+            <li>mangga</li>
+            <li>jeruk</li>
+            <li>apel</li>
+         </ul>
+
+
+         <ul type="disc">
+            <li>mangga</li>
+            <li>jeruk</li>
+            <li>apel</li>
+         </ul>
+         
+         <i>
+            <strong>
+                ini unordered list yang <mark>titiknya jadi square atau kotak</mark>
+            </strong>
+         </i>
+         <ul type="square">
+            <li>mangga</li>
+            <li>jeruk</li>
+            <li>apel</li>
+         </ul>
+
+         <i>
+            <strong>
+                ini unordered list yang <mark>titiknya jadi ilang(ga ada titiknya)
+                </mark>
+            </strong>
+         </i>
+         <ul type="none">
+            <li>mangga</li>
+            <li>jeruk</li>
+            <li>apel</li>
+         </ul>
+
+         <h3>3. Description List</h3>
+         <p>Description list adalah list yang berisi deskripsi atau penjelasan tentang sesuatu</p>
+
+         <dl>
+            <dt>Mangga</dt>
+            <dd>Mangga adalah buah</dd>
+         </dl>
+
+         <h3>4. List di dalam list [nested list]</h3>
+         <p></p>
+
+         <ol>
+            <li>Debian
+               <ul>
+                  <li>ubuntu</li>
+                  <li>mint</li>
+                  <li>elementaryOS</li>
+               </ul>
+            </li>
+            <li>Redhat
+               <ul>
+                  <li> Fedora</li>
+               </ul>
+            </li>
+            <li>Slackware
+               <ul>
+                  <li>indide of slackware</li>
+               </ul>
+            </li>
+         </ol>
+
+
+    </body>
+
+
+</html>
